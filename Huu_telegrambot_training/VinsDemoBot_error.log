@@ -1,0 +1,58 @@
+[2018-01-19 08:18:36] bot_log.ERROR: exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Download path not set!' in /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Request.php:383
+Stack trace:
+#0 /var/www/webhayhay.com/public_html/telegrambot/huutraining/MyCommands/WhoamiCommand.php(121): Longman\TelegramBot\Request::downloadFile(Object(Longman\TelegramBot\Entities\File))
+#1 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Commands/Command.php(173): Longman\TelegramBot\Commands\UserCommands\WhoamiCommand->execute()
+#2 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(494): Longman\TelegramBot\Commands\Command->preExecute()
+#3 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(462): Longman\TelegramBot\Telegram->executeCommand('whoami')
+#4 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(388): Longman\TelegramBot\Telegram->processUpdate(Object(Longman\TelegramBot\Entities\Update))
+#5 /var/www/webhayhay.com/public_html/telegrambot/huutraining/hook.php(56): Longman\TelegramBot\Telegram->handle()
+#6 {main} [] []
+[2018-01-19 09:04:01] bot_log.ERROR: exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Download path not set!' in /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Request.php:383
+Stack trace:
+#0 /var/www/webhayhay.com/public_html/telegrambot/huutraining/MyCommands/WhoamiCommand.php(122): Longman\TelegramBot\Request::downloadFile(Object(Longman\TelegramBot\Entities\File))
+#1 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Commands/Command.php(173): Longman\TelegramBot\Commands\UserCommands\WhoamiCommand->execute()
+#2 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(494): Longman\TelegramBot\Commands\Command->preExecute()
+#3 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(462): Longman\TelegramBot\Telegram->executeCommand('whoami')
+#4 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(388): Longman\TelegramBot\Telegram->processUpdate(Object(Longman\TelegramBot\Entities\Update))
+#5 /var/www/webhayhay.com/public_html/telegrambot/huutraining/hook.php(56): Longman\TelegramBot\Telegram->handle()
+#6 {main} [] []
+[2018-01-19 09:04:50] bot_log.ERROR: exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Download path not set!' in /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Request.php:383
+Stack trace:
+#0 /var/www/webhayhay.com/public_html/telegrambot/huutraining/MyCommands/WhoamiCommand.php(128): Longman\TelegramBot\Request::downloadFile(Object(Longman\TelegramBot\Entities\File))
+#1 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Commands/Command.php(173): Longman\TelegramBot\Commands\UserCommands\WhoamiCommand->execute()
+#2 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(494): Longman\TelegramBot\Commands\Command->preExecute()
+#3 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(462): Longman\TelegramBot\Telegram->executeCommand('whoami')
+#4 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(388): Longman\TelegramBot\Telegram->processUpdate(Object(Longman\TelegramBot\Entities\Update))
+#5 /var/www/webhayhay.com/public_html/telegrambot/huutraining/hook.php(56): Longman\TelegramBot\Telegram->handle()
+#6 {main} [] []
+[2018-01-19 09:35:11] bot_log.ERROR: exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Input is empty!' in /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php:380
+Stack trace:
+#0 /var/www/webhayhay.com/public_html/telegrambot/huutraining/hook.php(56): Longman\TelegramBot\Telegram->handle()
+#1 {main} [] []
+[2018-01-19 09:37:55] bot_log.ERROR: exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Download path not set!' in /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Request.php:383
+Stack trace:
+#0 /var/www/webhayhay.com/public_html/telegrambot/huutraining/MyCommands/WhoamiCommand.php(122): Longman\TelegramBot\Request::downloadFile(Object(Longman\TelegramBot\Entities\File))
+#1 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Commands/Command.php(173): Longman\TelegramBot\Commands\UserCommands\WhoamiCommand->execute()
+#2 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(494): Longman\TelegramBot\Commands\Command->preExecute()
+#3 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(462): Longman\TelegramBot\Telegram->executeCommand('whoami')
+#4 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(388): Longman\TelegramBot\Telegram->processUpdate(Object(Longman\TelegramBot\Entities\Update))
+#5 /var/www/webhayhay.com/public_html/telegrambot/huutraining/hook.php(56): Longman\TelegramBot\Telegram->handle()
+#6 {main} [] []
+[2018-01-19 10:12:38] bot_log.ERROR: exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Download path not set!' in /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Request.php:383
+Stack trace:
+#0 /var/www/webhayhay.com/public_html/telegrambot/huutraining/MyCommands/WhoamiCommand.php(121): Longman\TelegramBot\Request::downloadFile(Object(Longman\TelegramBot\Entities\File))
+#1 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Commands/Command.php(173): Longman\TelegramBot\Commands\UserCommands\WhoamiCommand->execute()
+#2 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(494): Longman\TelegramBot\Commands\Command->preExecute()
+#3 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(462): Longman\TelegramBot\Telegram->executeCommand('whoami')
+#4 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(388): Longman\TelegramBot\Telegram->processUpdate(Object(Longman\TelegramBot\Entities\Update))
+#5 /var/www/webhayhay.com/public_html/telegrambot/huutraining/hook.php(56): Longman\TelegramBot\Telegram->handle()
+#6 {main} [] []
+[2018-01-19 10:32:23] bot_log.ERROR: exception 'Longman\TelegramBot\Exception\TelegramException' with message 'Download path not set!' in /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Request.php:383
+Stack trace:
+#0 /var/www/webhayhay.com/public_html/telegrambot/huutraining/MyCommands/WhoamiCommand.php(121): Longman\TelegramBot\Request::downloadFile(Object(Longman\TelegramBot\Entities\File))
+#1 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Commands/Command.php(173): Longman\TelegramBot\Commands\UserCommands\WhoamiCommand->execute()
+#2 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(494): Longman\TelegramBot\Commands\Command->preExecute()
+#3 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(462): Longman\TelegramBot\Telegram->executeCommand('whoami')
+#4 /var/www/webhayhay.com/public_html/telegrambot/huutraining/vendor/longman/telegram-bot/src/Telegram.php(388): Longman\TelegramBot\Telegram->processUpdate(Object(Longman\TelegramBot\Entities\Update))
+#5 /var/www/webhayhay.com/public_html/telegrambot/huutraining/hook.php(56): Longman\TelegramBot\Telegram->handle()
+#6 {main} [] []
